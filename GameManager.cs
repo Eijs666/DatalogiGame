@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        introText.SetActiveI(true);
         Destroy(introText, 3f); //Destroy intro text after 3 seconds
 
         playerTask1.SetActive(false);
